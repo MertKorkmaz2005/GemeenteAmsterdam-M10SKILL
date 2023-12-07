@@ -17,13 +17,11 @@
     }
 
     &__li{
-        font-size: 150%;
+        font-size: 160%;
         padding: 1rem;
+       
       
 
-        &:hover{
-            cursor: pointer;
-        }
 
         
     }
@@ -31,6 +29,13 @@
     &__link{
         text-decoration: none;
         color: #eee;
+        transition: 0.5s all;
+
+
+        &:hover{
+            cursor: pointer;
+            background: colors.$red-color;
+           }
 
     }
 

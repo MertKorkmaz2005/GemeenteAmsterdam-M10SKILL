@@ -1,3 +1,5 @@
+@use "../../abstracts/colors";
+
 .home {
   background-image: url("../img/bmvHomePage.jpg");
   width: 100%;
@@ -17,10 +19,10 @@
   }
 
   &__h2{
-    font-size: 250%;
+    font-size: 300%;
   }
   &__h3{
-    font-size: 200%;
+    font-size: 250%;
     
 
   }
@@ -45,10 +47,12 @@
     align-items: center;
     justify-content: center;
     border: none;
+    transition: 0.5s all;
 
 
    &:hover{
     cursor: pointer;
+    background: colors.$red-color;
    }
 
 

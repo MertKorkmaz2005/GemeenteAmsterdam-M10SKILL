@@ -1,0 +1,44 @@
+@use "../../abstracts/colors";
+
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__h2{
+        margin-top: 5rem;
+        font-size: 250%;
+        color: #191919;
+
+    }
+
+    &__imgFigure{
+        width: 120rem;
+        height: 60rem;
+        padding: 2rem;
+        object-fit: cover;
+    }
+
+
+    &__imgFigure2{
+        margin-top: 5rem;
+        width: 120rem;
+        height: 60rem;
+        padding: 2rem;
+        object-fit: cover;
+    }
+    &__img{
+        width: 100%;
+        height: 100%;
+        
+
+    }
+
+    &__text{
+        margin-top: 2rem;
+        font-size: 200%;
+        width: 60%;
+        height: 5rem;
+
+    }
+}
