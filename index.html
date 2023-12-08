@@ -11,8 +11,10 @@
     ></script>
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="js/app.js" defer></script>
   </head>
-  <body>
+  <body id="app">
     <section class="home">
       <header class="header">
         <ul class="header__ul">
@@ -34,7 +36,7 @@
       </header>
       <div class="home__wrapperText">
         <h2 class="home__h2">Wij bouwen met </h2>
-        <h3 class="home__h3">passie,Creatief, deskundig en betrouwbaar</h3>
+        <h3  class="home__h3">{{ randomNumber() }}</h3>
       </div>
       <figure class="home__buttonWrapper">
         <a class="home__arrowLink" href="#about"
