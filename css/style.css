@@ -43,7 +43,7 @@ html {
 }
 .header__link:hover {
   cursor: pointer;
-  background: #FE0000;
+  color: #FE0000;
 }
 .header__logo {
   width: 13rem;
@@ -171,6 +171,7 @@ html {
 .nextPage__h2 {
   margin-top: 2rem;
   font-size: 250%;
+  color: #191919;
 }
 .nextPage__figureImg {
   width: 35rem;
@@ -184,6 +185,7 @@ html {
 .nextPage__p {
   font-size: 150%;
   width: 30rem;
+  color: #191919;
 }
 .nextPage__buttonWrapper {
   display: flex;
@@ -222,6 +224,37 @@ html {
   height: 20rem;
   background-color: #D8D9DA;
   margin-top: 10rem;
+}
+.footer__ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.footer__li {
+  display: flex;
+  list-style: none;
+  margin-top: 5rem;
+  flex-direction: column;
+  font-size: 150%;
+  width: 25rem;
+  gap: 1rem;
+}
+.footer__link {
+  text-decoration: none;
+  color: #191919;
+  transition: 0.5s all;
+  width: max-content;
+}
+.footer__link:hover {
+  cursor: pointer;
+  color: #FE0000;
+  text-decoration: underline;
+}
+.footer__linkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
