@@ -9,6 +9,7 @@
     gap: 3rem;
 
     &__card{
+        box-shadow: 0 4px 8px rgba(0.7, 0.7, 0.7, 0.7); /* Add a subtle box shadow */
         width: 40rem;
         height: 55rem;
         display: flex;

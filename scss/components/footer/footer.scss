@@ -43,7 +43,15 @@
 
     &__linkWrapper{
         display: flex;
-        flex-direction: column;
         gap: 0.5rem;
+
+        &--letter{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__icon{
+        font-size: 170%;
     }
 }
