@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100rem;
-    height: 37rem;
+    height: 40rem;
     background-color: #D8D9DA;
     padding: 2rem;
     border-radius: 0.5rem;
@@ -53,7 +53,7 @@
     &--imgwrapper {
       height: 100%;
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
     &--img {
       height: 100%;
@@ -78,6 +78,7 @@
 
     &--arrowLink {
       text-decoration: none;
+      color:#191919 ;
     }
 
     &--arrowButton {

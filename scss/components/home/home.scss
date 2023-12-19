@@ -24,6 +24,36 @@
 
   }
 
+  &--spinoza{
+    background-image: url("../img/spinoza.jpg");
+  }
+  &--aics{
+    background-image: url("../img/aics.jpg");
+  }
+
+  &--bos{
+    background-image: url("../img/bostheater.png");
+  }
+
+  &--wereld{
+    background-image: url("../img/wereld.jpg");
+  }
+  &--slavernij {
+    background-image: url("../img/kwartier-1.jpg");
+  }
+  &--museum{
+    background-image: url("../img/renovatie.jpg");
+
+  }
+  &--afc{
+    background-image: url("../img/afc.jpg");
+
+  }
+  &--werven{
+    background-image: url("../img/werven.jpg");
+
+  }
+
   &__wrapperText {
     position: absolute;
     bottom: 0;

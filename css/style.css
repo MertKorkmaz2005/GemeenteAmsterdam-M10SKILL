@@ -76,6 +76,30 @@ html {
 .home--werkenbij {
   background-image: url("../img/werkenbijhome.jpg");
 }
+.home--spinoza {
+  background-image: url("../img/spinoza.jpg");
+}
+.home--aics {
+  background-image: url("../img/aics.jpg");
+}
+.home--bos {
+  background-image: url("../img/bostheater.png");
+}
+.home--wereld {
+  background-image: url("../img/wereld.jpg");
+}
+.home--slavernij {
+  background-image: url("../img/kwartier-1.jpg");
+}
+.home--museum {
+  background-image: url("../img/renovatie.jpg");
+}
+.home--afc {
+  background-image: url("../img/afc.jpg");
+}
+.home--werven {
+  background-image: url("../img/werven.jpg");
+}
 .home__wrapperText {
   position: absolute;
   bottom: 0;
@@ -169,7 +193,7 @@ html {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100rem;
-  height: 37rem;
+  height: 40rem;
   background-color: #D8D9DA;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -178,7 +202,7 @@ html {
 .about__card--imgwrapper {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .about__card--img {
   height: 100%;
@@ -201,6 +225,7 @@ html {
 }
 .about__card--arrowLink {
   text-decoration: none;
+  color: #191919;
 }
 .about__card--arrowButton {
   display: flex;
@@ -344,9 +369,8 @@ html {
 .werkwijze__card {
   box-shadow: 0 4px 8px rgba(1, 1, 1, 0.7); /* Add a subtle box shadow */
   margin-top: 2rem;
-  padding: 3rem;
+  padding: 1rem;
   width: 80rem;
-  height: 25rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -483,6 +507,62 @@ html {
 .werkenbij__article--img {
   width: 100%;
   height: 100%;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.project__h2 {
+  font-size: 250%;
+  color: #191919;
+  margin-top: 4rem;
+}
+.project__h3 {
+  font-size: 200%;
+  color: #191919;
+  margin-top: 4rem;
+}
+.project__text {
+  margin-top: 0.5rem;
+  font-size: 200%;
+  width: 60%;
+}
+.project__figure {
+  margin-top: 5rem;
+  width: 120rem;
+  height: 60rem;
+  padding: 2rem;
+  object-fit: contain;
+}
+.project__article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.project__figureimg {
+  margin-top: 5rem;
+  width: 60rem;
+  height: 40rem;
+  padding: 2rem;
+  object-fit: contain;
+}
+.project__img {
+  width: 100%;
+  height: 100%;
+}
+.project__video {
+  width: 100%;
+  height: 100%;
+}
+.project__p {
+  font-size: 180%;
 }
 
 /*# sourceMappingURL=style.css.map */
