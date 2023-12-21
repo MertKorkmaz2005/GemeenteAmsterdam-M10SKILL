@@ -925,6 +925,9 @@ html {
   .about__text {
     font-size: 150%;
   }
+  .projecten__h3 {
+    font-size: 180%;
+  }
 }
 @media screen and (max-width: 25.5rem) {
   .projecten {
