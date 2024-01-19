@@ -2,9 +2,9 @@ const app = Vue.createApp({
     data() {
       return {
         dataTexts: [],
-        textA: "Betrouwbaar, Precisie, Vakmanschap",
-        textB: "Deskundig, Toewijding, Kwaliteit",
-        textC: "Creatief, Kwaliteit, Innovatie",
+        textA: "Betrouwbaarheid, Precisie, Vakmanschap",
+        textB: "Deskundigheid, Toewijding, Kwaliteit",
+        textC: "Creativiteit, Kwaliteit, Innovatie",
         textD: "Passie, Ervaring, Duurzaamheid",
       };
     },
